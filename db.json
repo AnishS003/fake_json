@@ -24,31 +24,6 @@
         "RideId": 116,
         "UserId": 45456,
         "UserName": "Speedster"
-    },
-    {
-        "RideId": 117,
-        "UserId": 45457,
-        "UserName": "AdventureGuy"
-    },
-    {
-        "RideId": 118,
-        "UserId": 45458,
-        "UserName": "TechWizard"
-    },
-    {
-        "RideId": 119,
-        "UserId": 45459,
-        "UserName": "HikerDude"
-    },
-    {
-        "RideId": 120,
-        "UserId": 45460,
-        "UserName": "MusicLover"
-    },
-    {
-        "RideId": 121,
-        "UserId": 45461,
-        "UserName": "NatureExplorer"
     }
   ]
 }
