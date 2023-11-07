@@ -30,122 +30,92 @@
     {
   "id": "1",
   "msg": "Message 1 not sent",
-  "status": {
-    "status": -1,
+    "status": 2,
     "timestamp": "2023-10-25T08:00:00Z"
-  }
 },
     {
   "id": "1",
   "msg": "Message 2 sent",
-  "status": {
     "status": 0,
     "timestamp": "2023-10-25T08:15:00Z"
-  }
 },
     {
   "id": "3",
   "msg": "Message 3 received",
-  "status": {
     "status": 1,
     "timestamp": "2023-10-25T08:30:00Z"
-  }
 },
     {
   "id": "1",
   "msg": "Message 4 not sent",
-  "status": {
-    "status": -1,
+    "status": 2,
     "timestamp": "2023-10-25T08:45:00Z"
-  }
 },
     {
   "id": "1",
   "msg": "Message 5 sent",
-  "status": {
     "status": 0,
     "timestamp": "2023-10-25T09:00:00Z"
-  }
 },
     {
   "id": "6",
   "msg": "Message 6 received",
-  "status": {
     "status": 1,
     "timestamp": "2023-10-25T09:15:00Z"
-  }
 },
     {
   "id": "1",
   "msg": "Message 7 not sent",
-  "status": {
-    "status": -1,
+    "status": 2,
     "timestamp": "2023-10-25T09:30:00Z"
-  }
 },
     {
   "id": "1",
   "msg": "Message 8 sent",
-  "status": {
     "status": 0,
     "timestamp": "2023-10-25T09:45:00Z"
-  }
 },
     {
   "id": "9",
   "msg": "Message 9 received",
-  "status": {
     "status": 1,
     "timestamp": "2023-10-25T10:00:00Z"
-  }
 },
     {
   "id": "1",
   "msg": "Message 10 not sent",
-  "status": {
-    "status": -1,
+    "status": 2,
     "timestamp": "2023-10-25T10:15:00Z"
-  }
 },
     {
   "id": "1",
   "msg": "Message 11 sent",
-  "status": {
     "status": 0,
     "timestamp": "2023-10-25T10:30:00Z"
-  }
 },
     {
   "id": "12",
   "msg": "Message 12 received",
-  "status": {
     "status": 1,
     "timestamp": "2023-10-25T10:45:00Z"
-  }
 },
     {
   "id": "1",
   "msg": "Message 13 not sent",
-  "status": {
-    "status": -1,
+    "status": 2,
     "timestamp": "2023-10-25T11:00:00Z"
-  }
 },
     {
   "id": "1",
   "msg": "Message 14 sent",
-  "status": {
     "status": 0,
     "timestamp": "2023-10-25T11:15:00Z"
-  }
 },
     {
   "id": "15",
   "msg": "Message 15 received",
-  "status": {
     "status": 1,
     "timestamp": "2023-10-25T11:30:00Z"
-  }
 }
   ]
 }
