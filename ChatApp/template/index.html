@@ -1,0 +1,155 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Chat Web Login</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+<style>
+    .container {
+        max-width:
+            400px;
+        margin:
+            100px auto;
+        padding:
+            20px;
+        border:
+            1px solid #ccc;
+        border-radius:
+            5px;
+        box-shadow:
+            0 2px 5px rgba(0,
+                0,
+                0,
+                0.1);
+    }
+
+    h1 {
+        text-align:
+            center;
+    }
+
+    .input-group {
+        margin-bottom:
+            20px;
+    }
+
+    label {
+        display:
+            block;
+        margin-bottom:
+            5px;
+    }
+
+    input {
+        width:
+            100%;
+        padding:
+            10px;
+        font-size:
+            16px;
+        border:
+            1px solid #ccc;
+        border-radius:
+            5px;
+    }
+
+    * {
+        margin:
+            0;
+        padding:
+            0;
+        box-sizing:
+            border-box;
+        scroll-behavior:
+            smooth;
+        font-family:
+            'poppins',
+            sans-serif;
+    }
+
+    body {
+        color:
+            #f2e4e4;
+        background:
+            #081b29;
+    }
+
+    button {
+        display:
+            block;
+        width:
+            100%;
+        padding:
+            10px;
+        font-size:
+            16px;
+        color:
+            #fff;
+        background-color:
+            #007bff;
+        border:
+            none;
+        border-radius:
+            5px;
+        cursor:
+            pointer;
+    }
+
+    button:hover {
+        background-color:
+            #0056b3;
+    }
+
+    #login {
+        background-color:
+            #0dd6fa;
+        text-transform:
+            capitalize;
+        font-weight:
+            bold;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <h1>Chat Web Login</h1>
+        <form action="{% url 'send' %}" method="post" onsubmit="return login()">
+            {% csrf_token %}
+
+            <div class="input-group">
+                <div>
+                    <br>
+                </div>
+                <label for="phone">Phone Number:</label>
+                <div>
+                    <br>
+                </div>
+                <input type="text" name="phone" id="phone" placeholder="Enter your phone number">
+            </div>
+            <button onclick="login()"><input type="submit" value="Login" id="login"></button>
+        </form>
+
+    </div>
+
+    <script>
+        function login() {
+            // Get the phone number entered by the user
+            var phoneNumber = document.getElementById("phone").value;
+            if (phoneNumber.length < 10) {  // Corrected the length check
+                alert("Enter 10 digit Number");
+            }
+            // Perform frontend validation here (e.g., check if the phone number is valid)
+
+            // Send the phone number to the backend for further processing and authentication
+            // You'll need to implement this part on the backend (server-side)
+            // Using AJAX or fetch() to send the data to the server is common in real-world applications
+            // For simplicity, we'll just log the phone number to the console here.
+            console.log("Phone Number:", phoneNumber);
+        }
+    </script>
+
+</body>
+
+</html>
